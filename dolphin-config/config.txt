@@ -1,0 +1,4 @@
+ROM: C:\roms\Fire Emblem Path of Radiance\Fire Emblem - Path of Radiance (USA).nkit.iso
+EMU: C:\roms\dolphin\Dolphin.exe
+FLG: --batch --config "Dolphin.Display.Fullscreen=True" --config "Graphics.Settings.AspectRatio=1" --config "Graphics.Hardware.VSync=True"
+CMD: ${EMU} --exec="${ROM}" ${FLG}
